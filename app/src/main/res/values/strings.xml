@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Adivina la bandera</string>
+    <string name="PreguntaGenerica">De que comunidad es la siguiente bandera?</string>
+    <string name="banderas">Banderas</string>
+    <string name="hint">Hint!</string>
+    <string name="contadorPreguntes">Pregunta %1$d de 10</string>
+    <string name="contadorPreguntesInicial">Pregunta 1 of 10</string>
+</resources>
