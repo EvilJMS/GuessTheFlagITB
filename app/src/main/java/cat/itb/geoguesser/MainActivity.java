@@ -181,6 +181,8 @@ public class MainActivity extends AppCompatActivity{
             public void onClick(DialogInterface dialog, int which) {
                 quizViewModel.randomQuestions();
                 quizViewModel.setPoints(0);
+                quizViewModel.setHintCounter(3);
+                hintButton.setVisibility(View.VISIBLE);
                 showQuestion();
                 dialog.cancel();
             }
